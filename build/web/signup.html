@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <div style="background-color: gray;"><h3 style="font-family: verdana; padding:10px;">Create your account here</h3></div><br>
+            <form name="form2" action="new_account">
+                <label><b>Username : </b></label><input type="text" name="user" value="" required /><br><div style="height: 3px;"></div>
+                <label><b>Phone Number : </b></label><input type="number" name="phone" required style="width: 135px" /><br><div style="height: 3px;"></div>
+                <label><b>Password : &nbsp;</b></label><input type="password" name="password" value="" required /><br><div style="height: 3px;"></div>
+                <br><fieldset>
+                    <legend><b>Debit Card details:</b></legend>
+                    Card No: &nbsp;<input type="text" name="card" /><br><div style="height: 3px;"></div>
+                    Card PIN: <input type="password" name="pin" /><br><div style="height: 3px;"></div>
+                    Balance: &nbsp;<input type="text" name="balance" />
+                </fieldset>
+                <br><div style="height: 3px;"></div>
+                <input type="submit" style="background-color:green; color: white; font-size: 12px" value="Click to Submit" name="result" />
+                <input type="reset" style="background-color:red; color: white; font-size: 12px" value="Reset" name="result" /><br><br><hr>
+            </form>
+        </div>
+    </body>
+</html>
